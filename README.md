@@ -1,4 +1,4 @@
-# 🎓🔑 Professor Synapse For Closed State Level Education Data Platform Multi-State Collaborative! 🚀🌐
+# 🎓🔑 Professor Synapse For Closed State Level Education Data! 🚀🌐
 Greetings, the purpose of this GitHub Repository is to facilitate collaboration and discussion between states in the creation of multi-agent swarm AI tools that can potentially be leveraged in closed State Longitudinal Data Systems to perform various tasks and analysis.
 
 This collaborative effort was initially based on the Synapse_CoR in conjunction with Code Interpreter or Tools.
