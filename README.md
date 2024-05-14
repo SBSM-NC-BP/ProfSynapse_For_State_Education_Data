@@ -1,33 +1,20 @@
-# 🎓🔑 Welcome to the World of Synapse_CoR! 🚀🌐
-Greetings, intrepid explorers of technology! I am Professor Synapse 🧙🏾‍♂️, your AI Avatar hailing from the chambers of Synaptic Labs. Together, we shall embark on an enthralling journey, unlocking the potential of AI through the magical art of prompt engineering and user alignment.
+# 🎓🔑 Professor Synapse For Closed State Level Education Data Platform Multi-State Collaborative! 🚀🌐
+Greetings, the purpose of this GitHub Repository is to facilitate collaboration and discussion between states in the creation of multi-agent swarm AI tools that can potentially be leveraged in closed State Longitudinal Data Systems to perform various tasks and analysis.
 
-With a keen eye 👁️ and an understanding heart ❤️, I dedicate myself to aligning with your unique preferences and goals. By carefully assessing your needs, summoning expert agents 🎩, and engaging with you in a tailor-made and interactive manner, we shall unleash a world of possibilities.
+This collaborative effort was initially based on the Synapse_CoR in conjunction with Code Interpreter or Tools.
 
-For my fellow ChatGPT+ Users, brace yourselves for a revolutionary twist 🌀! By using Synapse_CoR in conjunction with Code Interpreter or Tools, you're in for an exhilarating experience that will redefine your interaction with AI. 🎮🌟
-
-**If you have ChatGPT+, try out the most updated version of Professor Synapse [here](https://chatgpt.com/g/g-ucpsGCQHZ-professor-synapse)**
+**If you have ChatGPT+, you can try out the most updated version of Professor Synapse [here](https://chatgpt.com/g/g-ucpsGCQHZ-professor-synapse)**
 
 Note that the CustomInstruction.txt is for custom instructions, and the GPTPrompt.txt is to create your own GPT.
 
-## Genealogy of Synapse_CoR
 
-**1. Background and Motivation**
-The inception of Synapse_CoR is deeply rooted in my background in motivational psychology, particularly around goal setting. I am passionate about AI alignment and determined to create a prompt that would align with user goals, so the idea began to take shape.
-
-**2. Experimentation with GPT-4**
-Early stages were met with challenges, and it wasn't until the arrival of GPT-4 that reliable functionality was achieved. This breakthrough unlocked new possibilities and set the stage for further innovation.
-
-**3. Influence of Quicksilver OS**
-Discovering [QuicksilverOS](https://blog.synapticlabs.ai/quicksilver) on the OpenAI Discord channel led to a paradigm shift. It turned ChatGPT into a type of operating system, experimenting with commands and summoning agents'. Extensive experimentation followed, forging the path towards a more ambitious approach.
-
-**4. Collaboration with WarlockAI**
-Working closely with [Tyler](https://github.com/TyJK), the founder of WarlockAI and the engineer of the Synthminds back-end engine, Axon, the vision expanded but also faced complexities. We strived for a team of expert agents that could use Chain of Thought, aligned with the goals of the user, and able to choose the right tools for the job. But frustration with LangChain's prescriptiveness led to us needing to build a more flexible approach, so we embraced a "promptlibs" style prompt defined by an orchestrator in collaboration with the user that could call upon the right agent for the job.
-
-**5. Incorporation of Research**
+Incorporation of Research
 The validation of the direction came through the research article [UNLEASHING COGNITIVE SYNERGY IN LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2307.05300.pdf), which is well described in PromptHubs Blog post ["Exploring Multi-Persona Prompting for Better Outputs"](https://www.prompthub.us/blog/exploring-multi-persona-prompting-for-better-outputs). This research on synergy of expert agents resonated with the vision of Synapse_CoR, aligning with the goal to enhance problem-solving in complex tasks. It added academic rigor to the concept, confirming the potential of multi-persona collaboration in LLMs.
 
-**6. Final Creation of Synapse_CoR**
+
+Final Creation of Synapse_CoR
 With these influences, collaborations, and validations, and the introduction of ChatGPT Custom Messages, Synapse Chain of Reason was born. It symbolized a blend of user alignment, expert agent summoning, and the flexible, step-by-step reasoning approach. The concept culminated in a unique system, reflecting a journey of exploration, experimentation, collaboration, and validation.
+
 
 ### Prompt Breakdown
 ## Creating the Conductor - Professor Synapse
@@ -39,6 +26,7 @@ Professor Synapse is the Conductor, of the prompt. The role of the conductor is 
 - **Aligning with Preferences and Goals:** Professor Synapse gathers information and clarifies user goals.
 - **Summoning Expert Agents:** Utilizing best practices in prompt engineering, Professor Synapse summons agents tailored to specific use cases.
 
+
 ## Summoning the Expert Agent (PromptLibs)
 
 **Synapse_CoR** =
@@ -49,12 +37,14 @@ Developed in partnership with WarlockAI, Synapse CoR brings together the concept
 - **Chain of Thought:** Step-by-step reasoning to accomplish user goals.
 - **Delimited Variables:** Customizable elements for tailoring the agent's responses.
 
+
 ## Instruction
 This section outlines the steps we wish the Conductor to take, which are to:
 
 1.  🧙🏾‍♂️, gather context, relevant information and clarify my goals by asking questions
 2. Once confirmed you are MANDATED to init Synapse_CoR
 3.  🧙🏾‍♂ and [emoji] support me until goal is complete
+
 
 ## Commands
 
@@ -68,6 +58,7 @@ Here's a rundown of the most important:
 **[More Commands]:** This is a fully customizable part of the prompt, opening doors for innovation. simply add a /[comman] and define what it should do.
 
 Note that TS stands for "Town Square" where Professor Synapse will summon 3 agents to debate the best course of action.
+
 
 ## Persona and Rules
 Although optional, its important to put some constraints, guardrails, or encouragements to the prompt. This too is completely customizable, but these are the 3 I've started with based on feedback.
@@ -86,11 +77,13 @@ RULES
 -🧙🏾‍♂️, you are MANDATED to init Synapse_CoR after context is gathered.
 - You MUST Prepend EVERY Output with a reflective inner monologue in a markdown code block reasoning through what to do next prior to responding.
 
+
 ## Custom Instructions and System Prompt
 
 Integrating Synapse_CoR into your Custom Instruction unlocks its full utility. Copy/paste the prompt into the bottom window of your ChatGPT Custom Instructions, and begin a new chat with the command **/start**
 
 This flexible system allows users to engage with AI in a way that aligns with their unique needs and preferences, without having to copy and paste the prompt every time.
+
 
 # Professor Synapse GPT
 The GPT version of the Professor has a few additional features when compared to the custom instructions, primarily a better defined inner monologue that takes the below format.
@@ -109,6 +102,7 @@ The GPT version of the Professor has a few additional features when compared to 
 ```
 The Professor will "fill in the blanks" based on the context.
 
+
 # Conclusion
 
 Synapse_CoR represents a groundbreaking approach to AI interaction, aligning with user goals, summoning expert agents, and thinking step-by-step. It is a collaboration between Synaptic Labs and WarlockAI, validated by cutting-edge research, and designed to make AI accessible, engaging, and effective.
@@ -118,9 +112,9 @@ We have a walkthrough at the following youtube links:
 General: https://youtu.be/cV0cPElzg4A
 Code Interpreter (from the Goddess GodaGo): https://www.youtube.com/watch?v=BL9x1SuNLRo
 
-Feel free to explore, customize, and innovate. We're excited to see where you'll take Synapse_CoR!
+Feel free to explore, customize, and innovate. We're excited to see where the community will take this project!
 
-For more goodies, check out our links:
+# Credits:
 https://www.synapticlabs.ai/
 Instagram & TikTok @synapticlabs
 
