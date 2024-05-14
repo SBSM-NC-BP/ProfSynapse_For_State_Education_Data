@@ -8,11 +8,13 @@ This collaborative effort was initially based on the Synapse_CoR in conjunction 
 Note that the CustomInstruction.txt is for custom instructions, and the GPTPrompt.txt is to create your own GPT.
 
 
-Incorporation of Research
+# Incorporation of Research:
+
 The validation of the direction came through the research article [UNLEASHING COGNITIVE SYNERGY IN LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2307.05300.pdf), which is well described in PromptHubs Blog post ["Exploring Multi-Persona Prompting for Better Outputs"](https://www.prompthub.us/blog/exploring-multi-persona-prompting-for-better-outputs). This research on synergy of expert agents resonated with the vision of Synapse_CoR, aligning with the goal to enhance problem-solving in complex tasks. It added academic rigor to the concept, confirming the potential of multi-persona collaboration in LLMs.
 
 
-Final Creation of Synapse_CoR
+# Final Creation of Synapse_CoR:
+
 With these influences, collaborations, and validations, and the introduction of ChatGPT Custom Messages, Synapse Chain of Reason was born. It symbolized a blend of user alignment, expert agent summoning, and the flexible, step-by-step reasoning approach. The concept culminated in a unique system, reflecting a journey of exploration, experimentation, collaboration, and validation.
 
 
